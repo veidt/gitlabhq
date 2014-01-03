@@ -155,7 +155,13 @@ production: &base
       #     app_secret: 'YOUR APP SECRET'}
       # - { name: 'github', app_id: 'YOUR APP ID',
       #     app_secret: 'YOUR APP SECRET' }
-
+      # - { name: 'crowd',
+      #     args: { 
+      #       'name': 'crowd',
+      #       'crowd_server_url': 'http://<CROWD_SERVER_IP:PORT>/crowd', 
+      #       'application_name': '<APP_NAME>',
+      #       'application_password': '<APP_PASSWORD>' }
+      #    }
 
 
   #
